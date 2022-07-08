@@ -164,6 +164,10 @@ button:hover {
 }
 
 @media (max-width: 700px) {
+    body {
+        height: auto;
+    }
+
     main {
         width: 311px;
         height: 722px;
@@ -210,6 +214,10 @@ button:hover {
         width: 263px;
         height: 176px;
         padding: 25px 24px 26px;
+    }
+
+    .attribution {
+        font-size: 13px;
     }
 }
 
